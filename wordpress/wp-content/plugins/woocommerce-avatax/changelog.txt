@@ -1,0 +1,285 @@
+*** WooCommerce AvaTax Changelog ***
+
+2023.03.15 - version 2.2.0
+ * Fix - Fixed an issue with Gift Card plugin compatibility.
+ * Fix - Ensure the correct address (as per the setting 'Calculate tax based on') is selected for tax calculation.
+ * Misc - Item sync improvements.
+ * Fix - Security issue fixes.
+ * Misc - The Record Calculations field name is now changed to Submit to Avalara.
+
+2023.02.13 - version 2.1.0
+ * Fix - Plugin Rebranding.
+ * Fix - Removed blog name from client string.
+ * Fix - Colorado RDF display change on checkout page.
+
+2023.01.13 - version 2.0.0
+ * Fix - Fixed the fatal error that users encountered when saving or updating AvaTax for WooCommerce configuration settings.
+
+2022.12.06 - version 1.17.0
+ * Tweak - Prune the cached company ID when syncing items with Avalara if the company SKU changes
+ * Misc - Require PHP 7.4 and WordPress 5.6
+
+2022.11.16 - version 1.16.5
+ * Fix - Fix an issue with the classification systems API
+ * Fix - Ensure the Colorado Retail Delivery Fees can be correctly applied when calculating order totals manually in admin
+
+2022.11.04 - version 1.16.4
+ * Fix - Ensure refunds aren't sent to Avalara when Record Calculations is disabled
+
+2022.07.25 - version 1.16.3
+ * Fix - Apply the default tax code to the fee item sent to Avalara when handling the Colorado Retail Delivery Fee to avoid duplicated fees
+
+2022.07.11 - version 1.16.2
+ * Fix - Ensures that the Retail Delivery Fees are displayed as a single row in order totals
+
+2022.07.05 - version 1.16.1
+ * Tweak - Add support for Avalara's implementation of the new Retail Delivery Fee (RDF) in Colorado
+
+2022.02.07 - version 1.16.0
+ * Feature - Sync & classify individual product variations with AvaTax
+ * Feature - Support tax-inclusive pricing when calculating cross-border duties
+ * Feature - Support product sync for sandbox accounts (using test HS codes)
+ * Tweak - Use NetWeight parameter for more accurate duty calculations
+ * Tweak - Utilize product classification systems to reduce billable item classification API calls
+ * Tweak - Check for existing classification codes in Avalara before requesting classifications for items during full catalog sync
+ * Tweak - Send the AvaTax tax code (if it exists) when classifying a product (helps prevent tax code disappearing from AvaTax)
+ * Tweak - Always use product ID as item code in AvaTax API calls for consistency
+ * Tweak - Make company ID fetching more reliable by matching the company code
+ * Tweak - Stop enqueuing product classification follow-up actions on successful (pending) classification responses
+ * Tweak - Stop storing HS codes locally and sending them in tax calculations - instead, let AvaTax determine the correct HS code based on item code and destination country
+ * Tweak - Test item classification API connection before starting full catalog sync
+ * Tweak - Immediately stop product sync on API auth errors
+ * Tweak - Improve error handling for missing HS codes when calculating taxes
+ * Fix - Use correct API request type for product re-classifications
+ * Fix - Prevent page timeouts when toggling product sync, ensure full catalog is synced in background
+ * Fix - Replace deprecated usages of `is_ajax()` with `wp_doing_ajax()`
+ * Misc - Remove Landed Cost settings, as the feature has been replaced by Cross-border catalog sync
+ * Misc - Require TLS 1.2
+ * Misc - WooCommerce 3.9.4 is the minimum required version
+
+2021.11.30 - version 1.15.0
+ * Feature - Add support for sending partial order refunds to AvaTax
+ * Feature - Void refund in AvaTax when the refund is deleted in WooCommerce
+ * Tweak - Send order refunds to AvaTax as ReturnInvoices, instead of voiding the original transaction
+ * Tweak - Store calculated tax rate percentages on WooCommerce order tax items
+
+2021.10.13 - version 1.14.0
+ * Tweak - Reduce billable API calls in cart & checkout by caching responses to identical API requests
+ * Tweak - Remove background processing support check from settings page, as it's no longer required
+ * Fix - Ensure tax rates are estimated in cart only when Cart Calculations is set to "Show estimated tax rates"
+
+2021.08.11 - version 1.13.2
+ * Fix - Fix incorrect tax display during order processing when address includes duplicate tax rate codes
+
+2021.07.28 - version 1.13.1
+ * Tweak - Add description to the Company Code field to note this field is required to post voids and refunds to Avalara
+ * Fix - When the response from Avalara for a void order request is empty, add error handling and a related order note
+
+2021.07.12 - version 1.13.0
+ * Feature - Cross Border sync integration with Avalara to automatically store classification codes
+ * Fix - Fix tax rate calculation for manual orders on WooCommerce 5.3.0 and newer
+
+2021.04.19 - version 1.12.0
+ * Tweak - Tax rates that show up as Special Sales Tax will show up separate if they belong to different jurisdictions
+ * Fix - Improve handling of tax rates with duplicate names
+ * Fix - Prevent WooCommerce from overwriting AvaTax tax rate names for manual orders or when taxes are calculated using the Recalculate button
+ * Fix - Calculate tax rates for Apple Pay orders
+
+2021.01.26 - version 1.11.2
+ * Fix - Fix tax calculation for manual orders without a billing email
+
+2021.01.19 - version 1.11.1
+ * Fix - When saving order tax data, account for possible tax rates with duplicate names
+
+2020.12.08 - version 1.11.0
+ * Fix - When different tax rates with duplicate names exist, ensure that their grouped total is correct in cart and checkout pages
+ * Misc - Add compatibility for WooCommerce 4.7
+ * Misc - Require PHP 7.0 or newer
+
+2020.10.14 - version 1.10.5
+ * Tweak - Avoid auto-scrolling to the top of the page when displaying the result notice of address validation
+ * Tweak - Move the address validation result message next to the validation button in the checkout form
+ * Fix - Ensure that the "Validate Address" button can gain focus when tabbing through the checkout form fields
+
+2020.10.07 - version 1.10.4
+ * Fix - Ensure manual orders use tax descriptive label from API instead of the generic term
+
+2020.08.26 - version 1.10.3
+ * Fix - Ensure that the fixes introduced in 1.10.2 and 1.10.1 are also applied to rates in shipping fees
+
+2020.07.29 - version 1.10.2
+ * Fix - When different tax rates with duplicate names exist, ensure the tax that groups them under the same name in the product item row in the order edit screen displays their total correctly
+
+2020.07.16 - version 1.10.1
+ * Fix - Ensure different tax rates with duplicate names are displayed correctly at checkout
+ * Fix - Prevent fatal errors on the Checkout handler when it is used on the admin side
+
+2020.06.04 - version 1.10.0
+ * Tweak - When displaying itemized tax totals and there are landed costs, sum all landed cost taxes and display it above the other taxes
+ * Tweak - Update taxes' labels when there are landed costs
+
+2020.05.05 - version 1.9.5
+ * Misc - Add support for WooCommerce 4.1
+
+2020.03.10 - version 1.9.4
+ * Misc - Add support for WooCommerce 4.0
+
+2020.02.12 - version 1.9.3
+ * Fix - Prevent a PHP 7.4 deprecated notice in Landed costs
+
+2020.02.04 - version 1.9.2
+ * Fix - Ensure estimated tax rates with duplicate codes display properly
+ * Fix - Prevent a deprecated notice when calculating full order tax
+
+2020.01.02 - version 1.9.1
+ * Misc - Update filter handling for Customer/Order/Coupon Export v5
+ * Misc - Add support for WooCommerce 3.9
+
+2019.10.21 - version 1.9.0
+ * Misc - Add support for WooCommerce 3.8
+
+2019.10.15 - version 1.8.3
+ * Fix - Fix a bug that caused invalid addresses to incorrectly validate
+
+2019.09.11 - version 1.8.2
+ * Tweak - Hide Landed Cost settings if the feature is not already enabled and configured
+ * Misc - If Landed Cost is enabled, show an admin notice to indicate that the feature is in preview mode only
+
+2019.08.29 - version 1.8.1
+ * Tweak - Allow recalculating taxes even when order is previously posted to AvaTax
+ * Fix - Support custom fees with names longer than 50 characters
+ * Misc - Change "Look up Codes" URL to up to date version
+
+2019.08.12 - version 1.8.0
+ * Misc - Add support for WooCommerce 3.7
+ * Misc - Remove support for WooCommerce 2.6
+ * Misc - Require PHP 5.6+
+
+2019.07.25 - version 1.7.3
+ * Fix - Address potential errors in the orders handler in rare circumstances
+
+2019.06.12 - version 1.7.2
+ * Tweak - Introduce admin setting to fine tune cart page calculation method
+ * Tweak - Use the WooCommerce Store Address as a fallback for Origin Address
+ * Fix - When purchasing a subscription product and a recurring coupon is used, do not clear the coupon from the recurring cart while handling taxes
+
+2019.04.30 - version 1.7.1
+ * Fix - Remove the deprecated Landed Cost "shipping mode" parameters
+ * Misc - Add support for WooCommerce 3.6
+ * Misc - Require PHP 5.4+
+
+2019.03.12 - version 1.7.0
+ * Fix - Ensure that AvaTax does not add an unexpected string value to WooCommerce REST API responses for the tax ID of shop orders line items taxes
+ * Fix - Ensure that when posting an order via the WooCommerce REST API the response includes the tax totals as calculated via AvaTax
+ * Fix - Don't include any session data when calculating for a new order created via the REST API
+ * Fix - Prevent tax estimation errors when the address contains an extended postcode
+ * Misc - Upgrade to Framework version 5.3.1
+ * Misc - Remove support for PHP 5.2
+
+2018.10.16 - version 1.6.6
+ * Misc - Add support for WooCommerce 3.5
+
+2018.07.25 - version 1.6.5
+ * Tweak - Display a message at checkout when address validation is required and still needs to be performed
+ * Fix - Ensure that no negative values are passed to AvaTax if WooCommerce calculates negative item totals at checkout by mistake
+
+2018.06.20 - version 1.6.4
+ * Tweak - Add a setting to require address validation at checkout
+ * Tweak - Add a setting and filters to disable sending permanent transactions to Avalara when orders are placed
+ * Tweak - Update the Landed Cost integration to use Avalara's latest API parameters
+ * Tweak - Don't attempt to generate documents for partial free-form refunds and add an admin notice to the refund UI
+ * Fix - Ensure taxes are calculated for orders created via the REST API
+
+2018.05.23 - version 1.6.3
+ * Misc - Add support for WooCommerce 3.4
+
+2018.03.21 - version 1.6.2
+ * Tweak - Add the new Tax Exemption user option for educational organizations
+ * Fix - Ensure subscription renewals recalculate tax properly when customers change to a non-taxable address
+
+2018.02.13 - version 1.6.1
+ * Fix - Do not calculate tax for subscription renewals unless customer is in a taxable location
+ * Fix - Prevent a potential error when using Quick Edit on products in the admin
+
+2018.01.23 - version 1.6.0
+ * Tweak - Add the jurisdiction & type to tax rate labels for a nicer display when taxes are itemized
+ * Fix - Ensure rates returned with duplicate codes don't overwrite each other
+ * Misc - Add integration ID headers to all API requests
+ * Misc - Add support for WooCommerce 3.3
+ * Misc - Remove support for WooCommerce 2.5
+
+2017.12.12 - version 1.5.1
+ * Fix - Fix manual tax calculation for orders created from the admin in WooCommerce 3.2+
+ * Fix - Abide by the Supported Locations setting when estimating tax if it's limited to certain states
+
+2017.11.29 - version 1.5.0
+ * Feature - Landed Cost Support! Automatically estimate or charge tariff or import fees for international orders
+ * Feature - Full support for calculating tax per line item when destination addresses vary (including support for Local Pickup Plus!)
+ * Feature - Tax rates will be always itemized based on store tax display settings
+ * Feature - Optionally allow tax estimation on the cart page for international customers
+ * Feature - Add support for custom format mapping when using CSV or XML Export plugins
+ * Tweak - VAT ID and Tax Exemption columns will only be added to CSV or XML Export custom formats when included in column mapping
+ * Tweak - Improved support for tax-inclusive price display
+ * Fix - Ensure taxes on recurring shipping totals are correct and always refreshed with WC Subscriptions
+ * Dev - Upgrade to AvaTax REST API v2
+
+2017.08.30 - version 1.4.4
+ * Fix - Prevent a notice when setting the customer VAT ID in WooCommerce 3.0+
+
+2017.08.01 - version 1.4.3
+ * Fix - Ensure tax meta data is set properly when manually calculating in WooCommerce 3.0+
+
+2017.05.02 - version 1.4.2
+ * Fix - Reduce restrictions on when tax is calculated at checkout to avoid missed calculations
+
+2017.04.11 - version 1.4.1
+ * Tweak - Recalculates taxes for Subscriptions renewal orders prior to charging when using a gateway that supports recurring total changes
+ * Fix - Stricter sanitization of invalid UTF characters
+
+2017.03.28 - version 1.4.0
+ * Fix - Use store address as taxable address for pickup orders
+ * Fix - Fix inaccurate tax total display for carts containing subscriptions
+ * Misc - Added support for WooCommerce 3.0
+ * Misc - Removed support for WooCommerce 2.4
+
+2017.02.07 - version 1.3.1
+ * Fix - Pass the customer exemption code when processing refunds
+
+2016.12.20 - version 1.3.0
+ * Feature - Add VAT ID to order CSV or XML exports
+ * Feature - Add VAT ID and Tax exemption status to customer CSV or XML exports
+ * Tweak - Use the billing email address as customer ID when calculating tax at checkout
+
+2016.09.29 - version 1.2.3
+ * Tweak - Allow entire countries to be chosen along with their jurisdictions for tax availability
+ * Fix - Fix country availability for countries without jurisdictions
+
+2016.07.27 - version 1.2.2
+ * Misc - WordPress 4.6 compatibility
+
+2016.06.28 - version 1.2.1
+ * Tweak - Add a message to the cart page that taxes will be calculated at checkout
+ * Fix - Fixes the Validate Address button visibility when the checkout defaults to a separate shipping address
+ * Fix - Prevents automatic address validation when using the keyboard to navigate checkout
+
+2016.06.02 - version 1.2.0
+ * Misc - Added support for WooCommerce 2.6
+ * Misc - Removed support for WooCommerce 2.3
+
+2016.05.18 - version 1.1.2
+ * Fix - Fixes an incompatibility with discounted subscriptions
+
+2016.04.26 - version 1.1.1
+ * Fix - Fixes an issue where multi-line addresses were mangled by address validation
+ * Fix - Fixes the address validation button for billing addresses when using a separate shipping address
+
+2016.03.31 - version 1.1.0
+ * Feature - Tax calculation can now be limited by country & region
+ * Tweak - New documents in Avalara now reflect the original order date, regardless of when it was created
+ * Tweak - Administrators will see an error if WooCommerce taxes are disabled for easier troubleshooting
+ * Tweak - Set destination address for refund calculation
+ * Fix - Tax codes are no longer cleared when Quick Editing a product
+ * Fix - Fix refund tax total input error
+
+2016.01.25 - version 1.0.0
+ * Welcome to the world, AvaTax :)
