@@ -28,3 +28,7 @@ X-Parent-Response-Time: 162,96.16.87.55
 
 {"code":40104,"message":"The access_token is empty.","request_id":"20230331085322DC64B4209C00EE000F21"}
 
+2023-03-31T11:07:46+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2023-03-31T11:07:46+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2023-03-31T11:08:05+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2023-03-31T11:08:05+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
