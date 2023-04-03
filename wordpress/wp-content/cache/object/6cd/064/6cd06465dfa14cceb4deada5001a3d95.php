@@ -1,1 +1,1 @@
-E«*d<?php exit; ?>a:1:{s:7:"content";b:1;}
+%Ä*d<?php exit; ?>a:1:{s:7:"content";b:1;}
