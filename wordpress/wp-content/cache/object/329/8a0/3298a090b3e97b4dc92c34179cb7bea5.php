@@ -1,4 +1,4 @@
-и*d<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:49;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2023-03-29 12:29:03";s:13:"post_date_gmt";s:19:"2023-03-29 12:29:03";s:12:"post_content";s:313:"Product Description
+фи*d<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:49;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2023-03-29 12:29:03";s:13:"post_date_gmt";s:19:"2023-03-29 12:29:03";s:12:"post_content";s:313:"Product Description
 Product Category: Tensioner
 Material: TRE
 Specifications: 10.5*50*3.5CM

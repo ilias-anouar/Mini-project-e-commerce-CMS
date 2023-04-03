@@ -1,1 +1,1 @@
-и*d<?php exit; ?>a:1:{s:7:"content";s:2:"no";}
+фи*d<?php exit; ?>a:1:{s:7:"content";s:2:"no";}

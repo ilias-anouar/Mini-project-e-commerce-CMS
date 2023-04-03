@@ -1,4 +1,4 @@
-и*d<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:43;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2023-03-29 12:28:59";s:13:"post_date_gmt";s:19:"2023-03-29 12:28:59";s:12:"post_content";s:265:"Ease of use with 6 on the fly resistance levels
+фи*d<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:43;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2023-03-29 12:28:59";s:13:"post_date_gmt";s:19:"2023-03-29 12:28:59";s:12:"post_content";s:265:"Ease of use with 6 on the fly resistance levels
 Use when Stamina is a true Expectation
 Break through the never ending cardio plateaus
 Provides sealed fit for best functional breathing
