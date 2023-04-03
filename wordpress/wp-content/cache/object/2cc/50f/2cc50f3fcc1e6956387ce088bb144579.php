@@ -1,1 +1,1 @@
-QÂ&d<?php exit; ?>a:1:{s:7:"content";s:174:"{"common.install":1680175911,"common.install_version":"2.3.1","license.status":"no_key","license.next_check":1680607911,"license.terms":"","license.community_terms":"accept"}";}
+F«*d<?php exit; ?>a:1:{s:7:"content";s:174:"{"common.install":1680175911,"common.install_version":"2.3.1","license.status":"no_key","license.next_check":1680607911,"license.terms":"","license.community_terms":"accept"}";}
