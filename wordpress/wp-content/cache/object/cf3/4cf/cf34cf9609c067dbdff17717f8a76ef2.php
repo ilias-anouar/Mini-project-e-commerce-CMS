@@ -1,4 +1,4 @@
-ÆÉ*d<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:36;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2023-03-29 11:32:40";s:13:"post_date_gmt";s:19:"2023-03-29 11:32:40";s:12:"post_content";s:515:"<h3><strong>Why Buy a Protein Shaker?</strong></h3>
+ÆÊ*d<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:36;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2023-03-29 11:32:40";s:13:"post_date_gmt";s:19:"2023-03-29 11:32:40";s:12:"post_content";s:515:"<h3><strong>Why Buy a Protein Shaker?</strong></h3>
 There are 5 main reasons to buy a protein shaker bottle:
 <ul>
  	<li><strong>Ease of Mixing</strong></li>
