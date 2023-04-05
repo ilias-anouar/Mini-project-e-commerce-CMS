@@ -406,13 +406,13 @@
         "{plugins_dir}\/*.jpg",
         "{plugins_dir}\/*.png"
     ],
-    "cdn.import.files": false,
+    "cdn.import.files": "",
     "cdn.queue.interval": 900,
     "cdn.queue.limit": 25,
     "cdn.force.rewrite": false,
     "cdn.autoupload.enabled": false,
     "cdn.autoupload.interval": 3600,
-    "cdn.canonical_header": false,
+    "cdn.canonical_header": true,
     "cdn.admin.media_library": false,
     "cdn.cors_header": true,
     "cdn.ftp.host": "",
@@ -516,8 +516,12 @@
     "cdn.stackpath2.ssl": "auto",
     "cdn.reject.admins": false,
     "cdn.reject.logged_roles": false,
-    "cdn.reject.roles": [],
-    "cdn.reject.ua": [],
+    "cdn.reject.roles": [
+        ""
+    ],
+    "cdn.reject.ua": [
+        ""
+    ],
     "cdn.reject.uri": [],
     "cdn.reject.files": [
         "{uploads_dir}\/wpcf7_captcha\/*",

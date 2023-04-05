@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the MailPoet plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: MailPoet 4.10.0\n"
+"Project-Id-Version: MailPoet 4.11.0\n"
 "Report-Msgid-Bugs-To: http://support.mailpoet.com/\n"
 "Last-Translator: MailPoet i18n (https://www.transifex.com/organization/wysija)\n"
 "Language-Team: MailPoet i18n <https://www.transifex.com/organization/wysija>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-03-27T18:00:38+00:00\n"
+"POT-Creation-Date: 2023-04-04T05:33:21+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: views/emails/congratulatoryMssEmail.html:50
 #: views/homepage.html:79
-#: views/segments.html:231
+#: views/segments.html:235
 #: views/subscribers/subscribers.html:150
 #: assets/dist/js/commons.js:9
 msgid "Congrats!"
@@ -1816,7 +1816,7 @@ msgid "List score"
 msgstr ""
 
 #: views/homepage.html:75
-#: views/segments.html:227
+#: views/segments.html:231
 #: views/subscribers/subscribers.html:146
 #: lib/Subscribers/ImportExport/PersonalDataExporters/NewsletterClicksExporter.php:28
 #: lib/Subscribers/ImportExport/PersonalDataExporters/NewsletterOpensExporter.php:24
@@ -1826,19 +1826,19 @@ msgid "Unknown"
 msgstr ""
 
 #: views/homepage.html:76
-#: views/segments.html:228
+#: views/segments.html:232
 #: views/subscribers/subscribers.html:147
 msgid "Not enough data."
 msgstr ""
 
 #: views/homepage.html:77
-#: views/segments.html:229
+#: views/segments.html:233
 #: views/subscribers/subscribers.html:148
 msgid "Fewer than 3 emails sent"
 msgstr ""
 
 #: views/homepage.html:78
-#: views/segments.html:230
+#: views/segments.html:234
 #: views/subscribers/subscribers.html:149
 #: lib/Twig/Functions.php:303
 #: assets/dist/js/commons.js:9
@@ -1846,12 +1846,12 @@ msgid "Excellent"
 msgstr ""
 
 #: views/homepage.html:80
-#: views/segments.html:232
+#: views/segments.html:236
 msgid "50% or more"
 msgstr ""
 
 #: views/homepage.html:81
-#: views/segments.html:233
+#: views/segments.html:237
 #: views/subscribers/subscribers.html:152
 #: lib/Twig/Functions.php:305
 #: assets/dist/js/commons.js:9
@@ -1859,37 +1859,37 @@ msgid "Good"
 msgstr ""
 
 #: views/homepage.html:82
-#: views/segments.html:234
+#: views/segments.html:238
 #: views/subscribers/subscribers.html:153
 #: assets/dist/js/commons.js:9
 msgid "Good stuff."
 msgstr ""
 
 #: views/homepage.html:83
-#: views/segments.html:235
+#: views/segments.html:239
 msgid "between 20 and 50%"
 msgstr ""
 
 #: views/homepage.html:84
-#: views/segments.html:236
+#: views/segments.html:240
 #: views/subscribers/subscribers.html:155
 msgid "Low"
 msgstr ""
 
 #: views/homepage.html:85
-#: views/segments.html:237
+#: views/segments.html:241
 #: views/subscribers/subscribers.html:156
 #: assets/dist/js/commons.js:9
 msgid "Something to improve."
 msgstr ""
 
 #: views/homepage.html:86
-#: views/segments.html:238
+#: views/segments.html:242
 msgid "20% or fewer"
 msgstr ""
 
 #: views/homepage.html:87
-#: views/segments.html:239
+#: views/segments.html:243
 #: views/subscribers/subscribers.html:158
 msgid "Average percent of emails subscribers read in the last year"
 msgstr ""
@@ -4394,7 +4394,7 @@ msgid "opens"
 msgstr ""
 
 #: views/segments.html:144
-#: views/segments.html:208
+#: views/segments.html:210
 msgid "days"
 msgstr ""
 
@@ -4404,7 +4404,7 @@ msgid "more than"
 msgstr ""
 
 #: views/segments.html:148
-#: views/segments.html:206
+#: views/segments.html:207
 msgid "less than"
 msgstr ""
 
@@ -4536,77 +4536,93 @@ msgstr ""
 msgid "# of orders"
 msgstr ""
 
-#: views/segments.html:207
+#: views/segments.html:206
+msgid "more than or equal"
+msgstr ""
+
+#: views/segments.html:208
+msgid "less than or equal"
+msgstr ""
+
+#: views/segments.html:209
 #: assets/dist/js/admin.js:2
 msgid "count"
 msgstr ""
 
-#: views/segments.html:211
+#: views/segments.html:213
 msgid "orders"
 msgstr ""
 
-#: views/segments.html:212
+#: views/segments.html:214
 msgid "purchased in category"
 msgstr ""
 
-#: views/segments.html:213
-msgid "purchased product"
-msgstr ""
-
-#: views/segments.html:214
-msgid "total spent"
-msgstr ""
-
 #: views/segments.html:215
-msgid "is in country"
+msgid "purchase date"
 msgstr ""
 
 #: views/segments.html:216
-msgid "amount"
+msgid "purchased product"
 msgstr ""
 
 #: views/segments.html:217
-msgid "Search categories"
+msgid "total spent"
 msgstr ""
 
 #: views/segments.html:218
+msgid "is in country"
+msgstr ""
+
+#: views/segments.html:219
+msgid "single order value"
+msgstr ""
+
+#: views/segments.html:220
+msgid "amount"
+msgstr ""
+
+#: views/segments.html:221
+msgid "Search categories"
+msgstr ""
+
+#: views/segments.html:222
 #: lib/AutomaticEmails/WooCommerce/Events/PurchasedProduct.php:105
 msgid "Search products"
 msgstr ""
 
-#: views/segments.html:219
+#: views/segments.html:223
 msgid "Search countries"
 msgstr ""
 
-#: views/segments.html:222
+#: views/segments.html:226
 msgid "Calculating segment size…"
 msgstr ""
 
-#: views/segments.html:223
+#: views/segments.html:227
 msgid "It's taking longer than usual to generate the segment, which may be due to a complex configuration. Try using fewer or simpler conditions."
 msgstr ""
 
-#: views/segments.html:224
+#: views/segments.html:228
 msgid "This segment has %1$d subscribers."
 msgstr ""
 
-#: views/segments.html:225
+#: views/segments.html:229
 msgid "Learn more."
 msgstr ""
 
-#: views/segments.html:240
+#: views/segments.html:244
 msgid "Add a condition"
 msgstr ""
 
-#: views/segments.html:242
+#: views/segments.html:246
 msgid "Due to email privacy protections, some opens may not be tracked. Consider using a different engagement metric."
 msgstr ""
 
-#: views/segments.html:244
+#: views/segments.html:248
 msgid "Your current MailPoet plan does not support advanced segments with multiple conditions. Upgrade to the MailPoet Business plan to more precisely target your emails based on how people engage with your business. [link]Learn more.[/link]"
 msgstr ""
 
-#: views/segments.html:245
+#: views/segments.html:249
 #: views/subscribers/subscribers.html:136
 #: lib/Config/Menu.php:440
 #: lib/Config/Menu.php:441
@@ -4615,34 +4631,34 @@ msgstr ""
 msgid "Upgrade"
 msgstr ""
 
-#: views/segments.html:246
+#: views/segments.html:250
 #: views/subscribers/subscribers.html:138
 #: assets/dist/js/admin.js:2
 msgid "Your current MailPoet plan includes advanced features, but they require the MailPoet Premium plugin to be installed and activated."
 msgstr ""
 
-#: views/segments.html:247
+#: views/segments.html:251
 #: views/subscribers/subscribers.html:139
 #: assets/dist/js/admin.js:2
 #: assets/dist/js/commons.js:9
 msgid "Download MailPoet Premium plugin"
 msgstr ""
 
-#: views/segments.html:248
+#: views/segments.html:252
 #: views/subscribers/subscribers.html:140
 #: assets/dist/js/admin.js:2
 #: assets/dist/js/commons.js:9
 msgid "Activate MailPoet Premium plugin"
 msgstr ""
 
-#: views/segments.html:249
+#: views/segments.html:253
 #: views/subscribers/subscribers.html:135
 #: views/subscribers/subscribers.html:141
 #: assets/dist/js/admin.js:2
 msgid "Congratulations, you now have [subscribersCount] subscribers! Your plan is limited to [subscribersLimit] subscribers. You need to upgrade now to be able to continue using MailPoet."
 msgstr ""
 
-#: views/segments.html:250
+#: views/segments.html:254
 #: views/subscribers/subscribers.html:142
 #: assets/dist/js/admin.js:2
 msgid "Upgrade your plan"
@@ -4777,23 +4793,23 @@ msgctxt "Subscriber tag"
 msgid "tag"
 msgstr ""
 
-#: views/segments.html:209
+#: views/segments.html:211
 msgctxt "Appears together with `inTheLast` when creating a new WooCommerce segment based on the number of orders."
 msgid "days"
 msgstr ""
 
-#: views/segments.html:210
+#: views/segments.html:212
 msgctxt "Appears together with `days` when creating a new WooCommerce segment based on the number of orders."
 msgid "in the last"
 msgstr ""
 
-#: views/segments.html:220
+#: views/segments.html:224
 msgctxt "Dynamic segment creation: User selects this to use any woocommerce filters"
 msgid "WooCommerce"
 msgstr ""
 
 #: views/settings.html:34
-#: lib/Config/Hooks.php:466
+#: lib/Config/Hooks.php:473
 #: lib/Config/Menu.php:413
 #: lib/Config/Menu.php:414
 #: assets/dist/js/admin.js:2
@@ -6344,7 +6360,7 @@ msgstr ""
 
 #: views/subscribers/subscribers.html:110
 #: lib/Models/Segment.php:141
-#: lib/Segments/SegmentsRepository.php:57
+#: lib/Segments/SegmentsRepository.php:58
 msgid "WordPress Users"
 msgstr ""
 
@@ -6971,7 +6987,7 @@ msgstr ""
 msgid "Create and send newsletters, post notifications and welcome emails from your WordPress."
 msgstr ""
 
-#: lib/AdminPages/Pages/AutomationEditor.php:61
+#: lib/AdminPages/Pages/AutomationEditor.php:68
 msgid "Automation not found."
 msgstr ""
 
@@ -7055,16 +7071,16 @@ msgid "This custom field does not exist."
 msgstr ""
 
 #: lib/API/JSON/v1/DynamicSegments.php:78
-#: lib/API/JSON/v1/DynamicSegments.php:162
-#: lib/API/JSON/v1/DynamicSegments.php:195
-#: lib/API/JSON/v1/DynamicSegments.php:216
+#: lib/API/JSON/v1/DynamicSegments.php:163
+#: lib/API/JSON/v1/DynamicSegments.php:196
+#: lib/API/JSON/v1/DynamicSegments.php:217
 msgid "Missing mandatory argument `id`."
 msgstr ""
 
 #: lib/API/JSON/v1/DynamicSegments.php:85
-#: lib/API/JSON/v1/DynamicSegments.php:169
-#: lib/API/JSON/v1/DynamicSegments.php:202
-#: lib/API/JSON/v1/DynamicSegments.php:223
+#: lib/API/JSON/v1/DynamicSegments.php:170
+#: lib/API/JSON/v1/DynamicSegments.php:203
+#: lib/API/JSON/v1/DynamicSegments.php:224
 #: lib/API/JSON/v1/Subscribers.php:256
 msgid "This segment does not exist."
 msgstr ""
@@ -7115,24 +7131,24 @@ msgstr ""
 msgid "Please select a type for the comparison, a number of orders and a number of days."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:149
+#: lib/API/JSON/v1/DynamicSegments.php:150
 msgid "Please select a type for the comparison, an amount and a number of days."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:151
+#: lib/API/JSON/v1/DynamicSegments.php:152
 msgid "Please add at least one condition for filtering."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:153
+#: lib/API/JSON/v1/DynamicSegments.php:154
 msgid "Please select a type for the comparison."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:155
+#: lib/API/JSON/v1/DynamicSegments.php:156
 msgid "An error occurred while saving data."
 msgstr ""
 
 #. translators: %1$s is a comma-seperated list of emails for which the segment is used.
-#: lib/API/JSON/v1/DynamicSegments.php:180
+#: lib/API/JSON/v1/DynamicSegments.php:181
 msgctxt "Alert shown when trying to delete segment, which is assigned to any automatic emails."
 msgid "Segment cannot be deleted because it’s used for %1$s email"
 msgstr ""
@@ -7376,55 +7392,55 @@ msgstr ""
 msgid "Sending of congratulatory email failed."
 msgstr ""
 
-#: lib/API/JSON/v1/Services.php:293
+#: lib/API/JSON/v1/Services.php:298
 msgid "Service unavailable"
 msgstr ""
 
-#: lib/API/JSON/v1/Services.php:296
+#: lib/API/JSON/v1/Services.php:301
 msgid "Contact your hosting support to check the connection between your host and https://bridge.mailpoet.com"
 msgstr ""
 
 #. translators: %s is the code.
-#: lib/API/JSON/v1/Services.php:300
+#: lib/API/JSON/v1/Services.php:305
 msgctxt "Error code (inside parentheses)"
 msgid "code: %s"
 msgstr ""
 
-#: lib/API/JSON/v1/Settings.php:136
+#: lib/API/JSON/v1/Settings.php:139
 msgid "You have not specified any settings to be saved."
 msgstr ""
 
-#: lib/API/JSON/v1/Settings.php:178
+#: lib/API/JSON/v1/Settings.php:181
 msgid "You have not specified any setting to be deleted."
 msgstr ""
 
-#: lib/API/JSON/v1/Settings.php:189
+#: lib/API/JSON/v1/Settings.php:192
 msgid "Setting doesn't exist."
 msgstr ""
 
-#: lib/API/JSON/v1/Settings.php:221
-#: lib/API/JSON/v1/Settings.php:248
-#: lib/API/JSON/v1/Settings.php:278
+#: lib/API/JSON/v1/Settings.php:224
+#: lib/API/JSON/v1/Settings.php:251
+#: lib/API/JSON/v1/Settings.php:281
 msgid "No email address specified."
 msgstr ""
 
-#: lib/API/JSON/v1/Settings.php:230
+#: lib/API/JSON/v1/Settings.php:233
 msgid "Can’t use this email yet! Please authorize it first."
 msgstr ""
 
-#: lib/API/JSON/v1/Settings.php:294
-#: lib/API/JSON/v1/Settings.php:310
-#: lib/API/JSON/v1/Settings.php:325
-#: lib/API/JSON/v1/Settings.php:354
+#: lib/API/JSON/v1/Settings.php:297
+#: lib/API/JSON/v1/Settings.php:313
+#: lib/API/JSON/v1/Settings.php:328
+#: lib/API/JSON/v1/Settings.php:357
 msgid "No sender domain specified."
 msgstr ""
 
-#: lib/API/JSON/v1/Settings.php:378
+#: lib/API/JSON/v1/Settings.php:381
 msgid "Sender domain verification failed."
 msgstr ""
 
 #. translators: %s is the error message.
-#: lib/API/JSON/v1/Settings.php:459
+#: lib/API/JSON/v1/Settings.php:462
 msgid "Unable to deactivate re-engagement emails: %s"
 msgstr ""
 
@@ -7853,18 +7869,22 @@ msgstr ""
 msgid "Step with ID '%1$s' is missing required subjects with keys: %2$s"
 msgstr ""
 
+#: lib/Automation/Engine/Exceptions.php:218
+msgid "This step can not be used with the selected trigger."
+msgstr ""
+
 #. translators: %d is the ID of the automation.
-#: lib/Automation/Engine/Exceptions.php:223
+#: lib/Automation/Engine/Exceptions.php:226
 msgid "Can't delete automation with ID '%d' because it was not trashed."
 msgstr ""
 
 #. translators: %d is the ID of the automation template.
-#: lib/Automation/Engine/Exceptions.php:230
+#: lib/Automation/Engine/Exceptions.php:233
 msgid "Automation template with ID '%d' not found."
 msgstr ""
 
 #. translators: %d is the ID of the automation.
-#: lib/Automation/Engine/Exceptions.php:240
+#: lib/Automation/Engine/Exceptions.php:243
 msgid "Can not update automation with ID '%d' because users are currently active."
 msgstr ""
 
@@ -8126,6 +8146,33 @@ msgstr ""
 msgid "WordPress user registers"
 msgstr ""
 
+#: lib/Automation/Integrations/WooCommerce/Subjects/CustomerSubject.php:21
+msgid "WooCommerce customer"
+msgstr ""
+
+#. translators: %d is the ID of the customer.
+#: lib/Automation/Integrations/WooCommerce/Subjects/CustomerSubject.php:39
+msgid "Customer with ID '%d' not found."
+msgstr ""
+
+#: lib/Automation/Integrations/WooCommerce/Subjects/OrderStatusChangeSubject.php:20
+msgid "WooCommerce order status change"
+msgstr ""
+
+#: lib/Automation/Integrations/WooCommerce/Subjects/OrderSubject.php:30
+msgid "WooCommerce order"
+msgstr ""
+
+#. translators: %d is the order ID.
+#: lib/Automation/Integrations/WooCommerce/Subjects/OrderSubject.php:44
+msgid "Order with ID '%d' not found."
+msgstr ""
+
+#: lib/Automation/Integrations/WooCommerce/Triggers/OrderStatusChangedTrigger.php:40
+#: assets/dist/js/automation_editor.js:1
+msgid "Order status changed"
+msgstr ""
+
 #: lib/Config/AccessControl.php:78
 msgid "Admin menu item"
 msgstr ""
@@ -8162,19 +8209,19 @@ msgstr ""
 msgid "MailPoet version update is in progress, please refresh the page in a minute."
 msgstr ""
 
-#: lib/Config/Hooks.php:406
+#: lib/Config/Hooks.php:413
 msgid "MailPoet Newsletter"
 msgstr ""
 
-#: lib/Config/Hooks.php:450
+#: lib/Config/Hooks.php:457
 msgid "Give feedback"
 msgstr ""
 
-#: lib/Config/Hooks.php:466
+#: lib/Config/Hooks.php:473
 msgid "View MailPoet settings"
 msgstr ""
 
-#: lib/Config/Initializer.php:197
+#: lib/Config/Initializer.php:203
 msgid "Unable to connect to the database (the database is unable to open a file or folder), the connection is likely not configured correctly. Please read our [link] Knowledge Base article [/link] for steps how to resolve it."
 msgstr ""
 
@@ -10190,17 +10237,17 @@ msgid "Please specify a newsletter type."
 msgstr ""
 
 #: lib/Models/Segment.php:143
-#: lib/Segments/SegmentsRepository.php:59
+#: lib/Segments/SegmentsRepository.php:60
 msgid "This list contains all of your WordPress users."
 msgstr ""
 
 #: lib/Models/Segment.php:159
-#: lib/Segments/SegmentsRepository.php:74
+#: lib/Segments/SegmentsRepository.php:75
 msgid "WooCommerce Customers"
 msgstr ""
 
 #: lib/Models/Segment.php:161
-#: lib/Segments/SegmentsRepository.php:76
+#: lib/Segments/SegmentsRepository.php:77
 msgid "This list contains all of your WooCommerce customers."
 msgstr ""
 
@@ -12727,6 +12774,10 @@ msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
 msgid "Run this automation only once per subscriber."
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "Start the automation when an order is created or changed to a specific status."
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1

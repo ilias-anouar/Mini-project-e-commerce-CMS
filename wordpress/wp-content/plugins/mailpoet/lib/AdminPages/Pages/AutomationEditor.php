@@ -6,8 +6,10 @@ if (!defined('ABSPATH')) exit;
 
 
 use MailPoet\AdminPages\PageRenderer;
+use MailPoet\Automation\Engine\Control\SubjectTransformerHandler;
 use MailPoet\Automation\Engine\Data\Automation;
 use MailPoet\Automation\Engine\Hooks;
+use MailPoet\Automation\Engine\Integration\Trigger;
 use MailPoet\Automation\Engine\Mappers\AutomationMapper;
 use MailPoet\Automation\Engine\Registry;
 use MailPoet\Automation\Engine\Storage\AutomationStorage;
@@ -34,13 +36,17 @@ class AutomationEditor {
   /** @var WPFunctions */
   private $wp;
 
+  /** @var SubjectTransformerHandler */
+  private $subjectTransformerHandler;
+
   public function __construct(
     AssetsController $assetsController,
     AutomationMapper $automationMapper,
     AutomationStorage $automationStorage,
     PageRenderer $pageRenderer,
     Registry $registry,
-    WPFunctions $wp
+    WPFunctions $wp,
+    SubjectTransformerHandler $subjectTransformerHandler
   ) {
     $this->assetsController = $assetsController;
     $this->automationMapper = $automationMapper;
@@ -48,6 +54,7 @@ class AutomationEditor {
     $this->pageRenderer = $pageRenderer;
     $this->registry = $registry;
     $this->wp = $wp;
+    $this->subjectTransformerHandler = $subjectTransformerHandler;
   }
 
   public function render() {
@@ -97,7 +104,7 @@ class AutomationEditor {
       $steps[$key] = [
         'key' => $step->getKey(),
         'name' => $step->getName(),
-        'subject_keys' => $step->getSubjectKeys(),
+        'subject_keys' => $step instanceof Trigger ? $this->subjectTransformerHandler->getSubjectKeysForTrigger($step) : $step->getSubjectKeys(),
         'args_schema' => $step->getArgsSchema()->toArray(),
       ];
     }

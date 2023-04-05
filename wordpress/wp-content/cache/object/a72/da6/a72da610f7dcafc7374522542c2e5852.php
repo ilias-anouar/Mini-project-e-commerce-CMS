@@ -1,0 +1,1 @@
+ŞC-d<?php exit; ?>a:1:{s:7:"content";s:133:"a:3:{s:4:"data";a:2:{s:10:"currencies";a:1:{i:0;s:3:"MAD";}s:7:"updated";i:1680687515;}s:7:"fetched";i:1680687515;s:7:"errored";b:0;}";}

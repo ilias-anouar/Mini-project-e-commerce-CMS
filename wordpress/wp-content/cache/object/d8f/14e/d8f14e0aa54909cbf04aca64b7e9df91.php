@@ -1,4 +1,4 @@
-ÆÊ*d<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2023-03-28 13:34:52";s:13:"post_date_gmt";s:19:"2023-03-28 13:34:52";s:12:"post_content";s:1920:"<!-- wp:paragraph -->
+ùC-d<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:2;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2023-03-28 13:34:52";s:13:"post_date_gmt";s:19:"2023-03-28 13:34:52";s:12:"post_content";s:1920:"<!-- wp:paragraph -->
 <p>Welcome to our online store for sports materials and supplements! We are dedicated to providing high-quality products to our customers who are passionate about fitness and sports.</p>
 <!-- /wp:paragraph -->
 
