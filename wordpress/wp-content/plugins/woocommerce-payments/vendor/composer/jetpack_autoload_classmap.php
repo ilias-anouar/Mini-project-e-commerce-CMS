@@ -6,565 +6,577 @@ $vendorDir = dirname(__DIR__);
 $baseDir   = dirname($vendorDir);
 
 return array(
-	'WCPay\\MultiCurrency\\AdminNotices' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/AdminNotices.php'
-	),
-	'WCPay\\MultiCurrency\\CountryFlags' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/CountryFlags.php'
-	),
-	'WCPay\\MultiCurrency\\BackendCurrencies' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/BackendCurrencies.php'
-	),
-	'WCPay\\MultiCurrency\\UserSettings' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/UserSettings.php'
-	),
-	'WCPay\\MultiCurrency\\Currency' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Currency.php'
-	),
-	'WCPay\\MultiCurrency\\Compatibility' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Compatibility.php'
-	),
 	'WCPay\\MultiCurrency\\Geolocation' => array(
-		'version' => 'dev-release/5.6.1',
+		'version' => 'dev-release/5.7.0',
 		'path'    => $baseDir . '/includes/multi-currency/Geolocation.php'
 	),
-	'WCPay\\MultiCurrency\\FrontendCurrencies' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/FrontendCurrencies.php'
-	),
-	'WCPay\\MultiCurrency\\Utils' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Utils.php'
-	),
-	'WCPay\\MultiCurrency\\Tracking' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Tracking.php'
-	),
-	'WCPay\\MultiCurrency\\Analytics' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Analytics.php'
-	),
-	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceBookings' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceBookings.php'
-	),
-	'WCPay\\MultiCurrency\\Compatibility\\WooCommercePointsAndRewards' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommercePointsAndRewards.php'
-	),
-	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceNameYourPrice' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceNameYourPrice.php'
-	),
-	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceProductAddOns' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceProductAddOns.php'
-	),
-	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceDeposits' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceDeposits.php'
-	),
-	'WCPay\\MultiCurrency\\Compatibility\\WooCommercePreOrders' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommercePreOrders.php'
-	),
-	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceUPS' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceUPS.php'
-	),
-	'WCPay\\MultiCurrency\\Compatibility\\BaseCompatibility' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Compatibility/BaseCompatibility.php'
-	),
-	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceFedEx' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceFedEx.php'
-	),
-	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceSubscriptions' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceSubscriptions.php'
-	),
-	'WCPay\\MultiCurrency\\CurrencySwitcherWidget' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/CurrencySwitcherWidget.php'
-	),
-	'WCPay\\MultiCurrency\\Settings' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Settings.php'
-	),
-	'WCPay\\MultiCurrency\\PaymentMethodsCompatibility' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/PaymentMethodsCompatibility.php'
-	),
-	'WCPay\\MultiCurrency\\MultiCurrency' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/MultiCurrency.php'
-	),
-	'WCPay\\MultiCurrency\\StorefrontIntegration' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/StorefrontIntegration.php'
-	),
 	'WCPay\\MultiCurrency\\RestController' => array(
-		'version' => 'dev-release/5.6.1',
+		'version' => 'dev-release/5.7.0',
 		'path'    => $baseDir . '/includes/multi-currency/RestController.php'
 	),
-	'WCPay\\MultiCurrency\\CurrencySwitcherBlock' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/CurrencySwitcherBlock.php'
+	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceNameYourPrice' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceNameYourPrice.php'
 	),
-	'WCPay\\MultiCurrency\\SettingsOnboardCta' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/SettingsOnboardCta.php'
+	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceFedEx' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceFedEx.php'
 	),
-	'WCPay\\MultiCurrency\\Notes\\NoteMultiCurrencyAvailable' => array(
-		'version' => 'dev-release/5.6.1',
-		'path'    => $baseDir . '/includes/multi-currency/Notes/NoteMultiCurrencyAvailable.php'
+	'WCPay\\MultiCurrency\\Compatibility\\WooCommercePointsAndRewards' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommercePointsAndRewards.php'
+	),
+	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceSubscriptions' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceSubscriptions.php'
+	),
+	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceBookings' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceBookings.php'
+	),
+	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceDeposits' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceDeposits.php'
+	),
+	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceProductAddOns' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceProductAddOns.php'
+	),
+	'WCPay\\MultiCurrency\\Compatibility\\WooCommercePreOrders' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommercePreOrders.php'
+	),
+	'WCPay\\MultiCurrency\\Compatibility\\BaseCompatibility' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Compatibility/BaseCompatibility.php'
+	),
+	'WCPay\\MultiCurrency\\Compatibility\\WooCommerceUPS' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Compatibility/WooCommerceUPS.php'
+	),
+	'WCPay\\MultiCurrency\\CurrencySwitcherWidget' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/CurrencySwitcherWidget.php'
+	),
+	'WCPay\\MultiCurrency\\MultiCurrency' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/MultiCurrency.php'
+	),
+	'WCPay\\MultiCurrency\\AdminNotices' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/AdminNotices.php'
+	),
+	'WCPay\\MultiCurrency\\UserSettings' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/UserSettings.php'
+	),
+	'WCPay\\MultiCurrency\\Settings' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Settings.php'
 	),
 	'WCPay\\MultiCurrency\\FrontendPrices' => array(
-		'version' => 'dev-release/5.6.1',
+		'version' => 'dev-release/5.7.0',
 		'path'    => $baseDir . '/includes/multi-currency/FrontendPrices.php'
 	),
-	'Composer\\Installers\\ZendInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ZendInstaller.php'
+	'WCPay\\MultiCurrency\\FrontendCurrencies' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/FrontendCurrencies.php'
 	),
-	'Composer\\Installers\\CockpitInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/CockpitInstaller.php'
+	'WCPay\\MultiCurrency\\Compatibility' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Compatibility.php'
 	),
-	'Composer\\Installers\\KodiCMSInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/KodiCMSInstaller.php'
+	'WCPay\\MultiCurrency\\Tracking' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Tracking.php'
 	),
-	'Composer\\Installers\\MauticInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MauticInstaller.php'
+	'WCPay\\MultiCurrency\\SettingsOnboardCta' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/SettingsOnboardCta.php'
 	),
-	'Composer\\Installers\\HuradInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/HuradInstaller.php'
+	'WCPay\\MultiCurrency\\Utils' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Utils.php'
 	),
-	'Composer\\Installers\\OntoWikiInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/OntoWikiInstaller.php'
+	'WCPay\\MultiCurrency\\StorefrontIntegration' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/StorefrontIntegration.php'
 	),
-	'Composer\\Installers\\SMFInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/SMFInstaller.php'
+	'WCPay\\MultiCurrency\\PaymentMethodsCompatibility' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/PaymentMethodsCompatibility.php'
 	),
-	'Composer\\Installers\\EzPlatformInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/EzPlatformInstaller.php'
+	'WCPay\\MultiCurrency\\CountryFlags' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/CountryFlags.php'
 	),
-	'Composer\\Installers\\OctoberInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/OctoberInstaller.php'
+	'WCPay\\MultiCurrency\\CurrencySwitcherBlock' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/CurrencySwitcherBlock.php'
 	),
-	'Composer\\Installers\\Installer' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/Installer.php'
+	'WCPay\\MultiCurrency\\Currency' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Currency.php'
 	),
-	'Composer\\Installers\\SyliusInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/SyliusInstaller.php'
+	'WCPay\\MultiCurrency\\BackendCurrencies' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/BackendCurrencies.php'
 	),
-	'Composer\\Installers\\Concrete5Installer' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/Concrete5Installer.php'
+	'WCPay\\MultiCurrency\\Notes\\NoteMultiCurrencyAvailable' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Notes/NoteMultiCurrencyAvailable.php'
 	),
-	'Composer\\Installers\\StarbugInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/StarbugInstaller.php'
-	),
-	'Composer\\Installers\\RedaxoInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/RedaxoInstaller.php'
-	),
-	'Composer\\Installers\\YawikInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/YawikInstaller.php'
-	),
-	'Composer\\Installers\\KanboardInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/KanboardInstaller.php'
-	),
-	'Composer\\Installers\\Plugin' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/Plugin.php'
-	),
-	'Composer\\Installers\\WordPressInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/WordPressInstaller.php'
-	),
-	'Composer\\Installers\\KirbyInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/KirbyInstaller.php'
-	),
-	'Composer\\Installers\\SilverStripeInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/SilverStripeInstaller.php'
-	),
-	'Composer\\Installers\\BitrixInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/BitrixInstaller.php'
-	),
-	'Composer\\Installers\\FuelphpInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/FuelphpInstaller.php'
-	),
-	'Composer\\Installers\\AsgardInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/AsgardInstaller.php'
-	),
-	'Composer\\Installers\\CodeIgniterInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/CodeIgniterInstaller.php'
-	),
-	'Composer\\Installers\\ModxInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ModxInstaller.php'
-	),
-	'Composer\\Installers\\TYPO3CmsInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/TYPO3CmsInstaller.php'
-	),
-	'Composer\\Installers\\AttogramInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/AttogramInstaller.php'
-	),
-	'Composer\\Installers\\PxcmsInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PxcmsInstaller.php'
-	),
-	'Composer\\Installers\\RoundcubeInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/RoundcubeInstaller.php'
-	),
-	'Composer\\Installers\\LanManagementSystemInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/LanManagementSystemInstaller.php'
-	),
-	'Composer\\Installers\\MayaInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MayaInstaller.php'
-	),
-	'Composer\\Installers\\ElggInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ElggInstaller.php'
-	),
-	'Composer\\Installers\\AglInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/AglInstaller.php'
-	),
-	'Composer\\Installers\\PrestashopInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PrestashopInstaller.php'
-	),
-	'Composer\\Installers\\MoodleInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MoodleInstaller.php'
-	),
-	'Composer\\Installers\\WolfCMSInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/WolfCMSInstaller.php'
-	),
-	'Composer\\Installers\\PortoInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PortoInstaller.php'
-	),
-	'Composer\\Installers\\LithiumInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/LithiumInstaller.php'
-	),
-	'Composer\\Installers\\DolibarrInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/DolibarrInstaller.php'
-	),
-	'Composer\\Installers\\GravInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/GravInstaller.php'
-	),
-	'Composer\\Installers\\CakePHPInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/CakePHPInstaller.php'
-	),
-	'Composer\\Installers\\KnownInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/KnownInstaller.php'
-	),
-	'Composer\\Installers\\MantisBTInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MantisBTInstaller.php'
-	),
-	'Composer\\Installers\\DokuWikiInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/DokuWikiInstaller.php'
-	),
-	'Composer\\Installers\\PhiftyInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PhiftyInstaller.php'
-	),
-	'Composer\\Installers\\MagentoInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MagentoInstaller.php'
-	),
-	'Composer\\Installers\\SyDESInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/SyDESInstaller.php'
-	),
-	'Composer\\Installers\\VanillaInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/VanillaInstaller.php'
+	'WCPay\\MultiCurrency\\Analytics' => array(
+		'version' => 'dev-release/5.7.0',
+		'path'    => $baseDir . '/includes/multi-currency/Analytics.php'
 	),
 	'Composer\\Installers\\UserFrostingInstaller' => array(
 		'version' => '1.10.0.0',
 		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/UserFrostingInstaller.php'
 	),
-	'Composer\\Installers\\LavaLiteInstaller' => array(
+	'Composer\\Installers\\BitrixInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/LavaLiteInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/BitrixInstaller.php'
 	),
-	'Composer\\Installers\\MakoInstaller' => array(
+	'Composer\\Installers\\CockpitInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MakoInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/CockpitInstaller.php'
 	),
-	'Composer\\Installers\\EliasisInstaller' => array(
+	'Composer\\Installers\\MayaInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/EliasisInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MayaInstaller.php'
 	),
-	'Composer\\Installers\\MediaWikiInstaller' => array(
+	'Composer\\Installers\\DolibarrInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MediaWikiInstaller.php'
-	),
-	'Composer\\Installers\\TYPO3FlowInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/TYPO3FlowInstaller.php'
-	),
-	'Composer\\Installers\\PlentymarketsInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PlentymarketsInstaller.php'
-	),
-	'Composer\\Installers\\PiwikInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PiwikInstaller.php'
-	),
-	'Composer\\Installers\\OxidInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/OxidInstaller.php'
-	),
-	'Composer\\Installers\\KohanaInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/KohanaInstaller.php'
-	),
-	'Composer\\Installers\\ImageCMSInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ImageCMSInstaller.php'
-	),
-	'Composer\\Installers\\DframeInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/DframeInstaller.php'
-	),
-	'Composer\\Installers\\OsclassInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/OsclassInstaller.php'
-	),
-	'Composer\\Installers\\Redaxo5Installer' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/Redaxo5Installer.php'
-	),
-	'Composer\\Installers\\MicroweberInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MicroweberInstaller.php'
-	),
-	'Composer\\Installers\\ReIndexInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ReIndexInstaller.php'
-	),
-	'Composer\\Installers\\ChefInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ChefInstaller.php'
-	),
-	'Composer\\Installers\\LaravelInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/LaravelInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/DolibarrInstaller.php'
 	),
 	'Composer\\Installers\\MODULEWorkInstaller' => array(
 		'version' => '1.10.0.0',
 		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MODULEWorkInstaller.php'
 	),
-	'Composer\\Installers\\JoomlaInstaller' => array(
+	'Composer\\Installers\\PiwikInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/JoomlaInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PiwikInstaller.php'
 	),
-	'Composer\\Installers\\CraftInstaller' => array(
+	'Composer\\Installers\\MakoInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/CraftInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MakoInstaller.php'
 	),
-	'Composer\\Installers\\ItopInstaller' => array(
+	'Composer\\Installers\\MagentoInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ItopInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MagentoInstaller.php'
 	),
-	'Composer\\Installers\\TuskInstaller' => array(
+	'Composer\\Installers\\OctoberInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/TuskInstaller.php'
-	),
-	'Composer\\Installers\\RadPHPInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/RadPHPInstaller.php'
-	),
-	'Composer\\Installers\\BaseInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/BaseInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/OctoberInstaller.php'
 	),
 	'Composer\\Installers\\SiteDirectInstaller' => array(
 		'version' => '1.10.0.0',
 		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/SiteDirectInstaller.php'
 	),
-	'Composer\\Installers\\DecibelInstaller' => array(
+	'Composer\\Installers\\RedaxoInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/DecibelInstaller.php'
-	),
-	'Composer\\Installers\\ClanCatsFrameworkInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ClanCatsFrameworkInstaller.php'
-	),
-	'Composer\\Installers\\CroogoInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/CroogoInstaller.php'
-	),
-	'Composer\\Installers\\FuelInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/FuelInstaller.php'
-	),
-	'Composer\\Installers\\DrupalInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/DrupalInstaller.php'
-	),
-	'Composer\\Installers\\ZikulaInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ZikulaInstaller.php'
-	),
-	'Composer\\Installers\\ExpressionEngineInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ExpressionEngineInstaller.php'
-	),
-	'Composer\\Installers\\VgmcpInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/VgmcpInstaller.php'
-	),
-	'Composer\\Installers\\BonefishInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/BonefishInstaller.php'
-	),
-	'Composer\\Installers\\TaoInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/TaoInstaller.php'
-	),
-	'Composer\\Installers\\AnnotateCmsInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/AnnotateCmsInstaller.php'
-	),
-	'Composer\\Installers\\AimeosInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/AimeosInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/RedaxoInstaller.php'
 	),
 	'Composer\\Installers\\ProcessWireInstaller' => array(
 		'version' => '1.10.0.0',
 		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ProcessWireInstaller.php'
 	),
+	'Composer\\Installers\\DokuWikiInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/DokuWikiInstaller.php'
+	),
 	'Composer\\Installers\\PuppetInstaller' => array(
 		'version' => '1.10.0.0',
 		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PuppetInstaller.php'
 	),
-	'Composer\\Installers\\PimcoreInstaller' => array(
+	'Composer\\Installers\\SyDESInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PimcoreInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/SyDESInstaller.php'
 	),
-	'Composer\\Installers\\TheliaInstaller' => array(
+	'Composer\\Installers\\CakePHPInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/TheliaInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/CakePHPInstaller.php'
+	),
+	'Composer\\Installers\\AimeosInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/AimeosInstaller.php'
+	),
+	'Composer\\Installers\\KnownInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/KnownInstaller.php'
+	),
+	'Composer\\Installers\\RoundcubeInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/RoundcubeInstaller.php'
+	),
+	'Composer\\Installers\\FuelphpInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/FuelphpInstaller.php'
+	),
+	'Composer\\Installers\\BaseInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/BaseInstaller.php'
+	),
+	'Composer\\Installers\\Installer' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/Installer.php'
+	),
+	'Composer\\Installers\\TaoInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/TaoInstaller.php'
+	),
+	'Composer\\Installers\\Plugin' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/Plugin.php'
+	),
+	'Composer\\Installers\\MediaWikiInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MediaWikiInstaller.php'
+	),
+	'Composer\\Installers\\JoomlaInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/JoomlaInstaller.php'
 	),
 	'Composer\\Installers\\MODXEvoInstaller' => array(
 		'version' => '1.10.0.0',
 		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MODXEvoInstaller.php'
 	),
-	'Composer\\Installers\\PhpBBInstaller' => array(
+	'Composer\\Installers\\CraftInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PhpBBInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/CraftInstaller.php'
 	),
-	'Composer\\Installers\\MajimaInstaller' => array(
+	'Composer\\Installers\\DecibelInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MajimaInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/DecibelInstaller.php'
+	),
+	'Composer\\Installers\\PhiftyInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PhiftyInstaller.php'
+	),
+	'Composer\\Installers\\TYPO3FlowInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/TYPO3FlowInstaller.php'
+	),
+	'Composer\\Installers\\SyliusInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/SyliusInstaller.php'
+	),
+	'Composer\\Installers\\MicroweberInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MicroweberInstaller.php'
+	),
+	'Composer\\Installers\\AttogramInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/AttogramInstaller.php'
+	),
+	'Composer\\Installers\\Redaxo5Installer' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/Redaxo5Installer.php'
+	),
+	'Composer\\Installers\\OsclassInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/OsclassInstaller.php'
 	),
 	'Composer\\Installers\\ShopwareInstaller' => array(
 		'version' => '1.10.0.0',
 		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ShopwareInstaller.php'
 	),
-	'Composer\\Installers\\WHMCSInstaller' => array(
+	'Composer\\Installers\\ImageCMSInstaller' => array(
 		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/WHMCSInstaller.php'
-	),
-	'Composer\\Installers\\Symfony1Installer' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/Symfony1Installer.php'
-	),
-	'Composer\\Installers\\CiviCrmInstaller' => array(
-		'version' => '1.10.0.0',
-		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/CiviCrmInstaller.php'
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ImageCMSInstaller.php'
 	),
 	'Composer\\Installers\\PPIInstaller' => array(
 		'version' => '1.10.0.0',
 		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PPIInstaller.php'
 	),
-	'Autoloader_Locator' => array(
-		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader-locator.php'
+	'Composer\\Installers\\PhpBBInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PhpBBInstaller.php'
 	),
-	'Path_Processor' => array(
-		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-path-processor.php'
+	'Composer\\Installers\\SilverStripeInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/SilverStripeInstaller.php'
 	),
-	'Hook_Manager' => array(
-		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-hook-manager.php'
+	'Composer\\Installers\\ReIndexInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ReIndexInstaller.php'
 	),
-	'Version_Selector' => array(
-		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-version-selector.php'
+	'Composer\\Installers\\ModxInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ModxInstaller.php'
 	),
-	'Version_Loader' => array(
-		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-version-loader.php'
+	'Composer\\Installers\\PrestashopInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PrestashopInstaller.php'
 	),
-	'Automattic\\Jetpack\\Autoloader\\CustomAutoloaderPlugin' => array(
-		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php'
+	'Composer\\Installers\\PimcoreInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PimcoreInstaller.php'
 	),
-	'Shutdown_Handler' => array(
-		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-shutdown-handler.php'
+	'Composer\\Installers\\WordPressInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/WordPressInstaller.php'
+	),
+	'Composer\\Installers\\CiviCrmInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/CiviCrmInstaller.php'
+	),
+	'Composer\\Installers\\TYPO3CmsInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/TYPO3CmsInstaller.php'
+	),
+	'Composer\\Installers\\WHMCSInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/WHMCSInstaller.php'
+	),
+	'Composer\\Installers\\KanboardInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/KanboardInstaller.php'
+	),
+	'Composer\\Installers\\OxidInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/OxidInstaller.php'
+	),
+	'Composer\\Installers\\SMFInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/SMFInstaller.php'
+	),
+	'Composer\\Installers\\VgmcpInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/VgmcpInstaller.php'
+	),
+	'Composer\\Installers\\DframeInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/DframeInstaller.php'
+	),
+	'Composer\\Installers\\BonefishInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/BonefishInstaller.php'
+	),
+	'Composer\\Installers\\RadPHPInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/RadPHPInstaller.php'
+	),
+	'Composer\\Installers\\LavaLiteInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/LavaLiteInstaller.php'
+	),
+	'Composer\\Installers\\ZikulaInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ZikulaInstaller.php'
+	),
+	'Composer\\Installers\\KodiCMSInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/KodiCMSInstaller.php'
+	),
+	'Composer\\Installers\\GravInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/GravInstaller.php'
+	),
+	'Composer\\Installers\\PortoInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PortoInstaller.php'
+	),
+	'Composer\\Installers\\ItopInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ItopInstaller.php'
+	),
+	'Composer\\Installers\\MantisBTInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MantisBTInstaller.php'
+	),
+	'Composer\\Installers\\MoodleInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MoodleInstaller.php'
+	),
+	'Composer\\Installers\\Concrete5Installer' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/Concrete5Installer.php'
+	),
+	'Composer\\Installers\\MauticInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MauticInstaller.php'
+	),
+	'Composer\\Installers\\CroogoInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/CroogoInstaller.php'
+	),
+	'Composer\\Installers\\KohanaInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/KohanaInstaller.php'
+	),
+	'Composer\\Installers\\EliasisInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/EliasisInstaller.php'
+	),
+	'Composer\\Installers\\ChefInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ChefInstaller.php'
+	),
+	'Composer\\Installers\\AnnotateCmsInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/AnnotateCmsInstaller.php'
+	),
+	'Composer\\Installers\\CodeIgniterInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/CodeIgniterInstaller.php'
+	),
+	'Composer\\Installers\\FuelInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/FuelInstaller.php'
+	),
+	'Composer\\Installers\\Symfony1Installer' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/Symfony1Installer.php'
+	),
+	'Composer\\Installers\\MajimaInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/MajimaInstaller.php'
+	),
+	'Composer\\Installers\\AglInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/AglInstaller.php'
+	),
+	'Composer\\Installers\\ZendInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ZendInstaller.php'
+	),
+	'Composer\\Installers\\OntoWikiInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/OntoWikiInstaller.php'
+	),
+	'Composer\\Installers\\AsgardInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/AsgardInstaller.php'
+	),
+	'Composer\\Installers\\StarbugInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/StarbugInstaller.php'
+	),
+	'Composer\\Installers\\PlentymarketsInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PlentymarketsInstaller.php'
+	),
+	'Composer\\Installers\\ClanCatsFrameworkInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ClanCatsFrameworkInstaller.php'
+	),
+	'Composer\\Installers\\PxcmsInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/PxcmsInstaller.php'
+	),
+	'Composer\\Installers\\KirbyInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/KirbyInstaller.php'
+	),
+	'Composer\\Installers\\LithiumInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/LithiumInstaller.php'
+	),
+	'Composer\\Installers\\VanillaInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/VanillaInstaller.php'
+	),
+	'Composer\\Installers\\TheliaInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/TheliaInstaller.php'
+	),
+	'Composer\\Installers\\LaravelInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/LaravelInstaller.php'
+	),
+	'Composer\\Installers\\EzPlatformInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/EzPlatformInstaller.php'
+	),
+	'Composer\\Installers\\LanManagementSystemInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/LanManagementSystemInstaller.php'
+	),
+	'Composer\\Installers\\YawikInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/YawikInstaller.php'
+	),
+	'Composer\\Installers\\DrupalInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/DrupalInstaller.php'
+	),
+	'Composer\\Installers\\ExpressionEngineInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ExpressionEngineInstaller.php'
+	),
+	'Composer\\Installers\\TuskInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/TuskInstaller.php'
+	),
+	'Composer\\Installers\\HuradInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/HuradInstaller.php'
+	),
+	'Composer\\Installers\\ElggInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/ElggInstaller.php'
+	),
+	'Composer\\Installers\\WolfCMSInstaller' => array(
+		'version' => '1.10.0.0',
+		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/WolfCMSInstaller.php'
 	),
 	'Plugins_Handler' => array(
 		'version' => '2.10.11.0',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-plugins-handler.php'
 	),
-	'PHP_Autoloader' => array(
+	'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => array(
 		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-php-autoloader.php'
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php'
 	),
-	'Plugin_Locator' => array(
+	'Automattic\\Jetpack\\Autoloader\\ManifestGenerator' => array(
 		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-plugin-locator.php'
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/ManifestGenerator.php'
+	),
+	'Autoloader' => array(
+		'version' => '2.10.11.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\AutoloadProcessor' => array(
 		'version' => '2.10.11.0',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadProcessor.php'
+	),
+	'Shutdown_Handler' => array(
+		'version' => '2.10.11.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-shutdown-handler.php'
+	),
+	'Autoloader_Locator' => array(
+		'version' => '2.10.11.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader-locator.php'
+	),
+	'Manifest_Reader' => array(
+		'version' => '2.10.11.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-manifest-reader.php'
+	),
+	'PHP_Autoloader' => array(
+		'version' => '2.10.11.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-php-autoloader.php'
+	),
+	'Version_Loader' => array(
+		'version' => '2.10.11.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-version-loader.php'
+	),
+	'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => array(
+		'version' => '2.10.11.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadGenerator.php'
+	),
+	'Hook_Manager' => array(
+		'version' => '2.10.11.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-hook-manager.php'
+	),
+	'Path_Processor' => array(
+		'version' => '2.10.11.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-path-processor.php'
+	),
+	'Autoloader_Handler' => array(
+		'version' => '2.10.11.0',
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader-handler.php'
 	),
 	'Latest_Autoloader_Guard' => array(
 		'version' => '2.10.11.0',
@@ -574,61 +586,29 @@ return array(
 		'version' => '2.10.11.0',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-container.php'
 	),
-	'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => array(
+	'Plugin_Locator' => array(
 		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php'
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-plugin-locator.php'
 	),
-	'Autoloader' => array(
+	'Version_Selector' => array(
 		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader.php'
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-version-selector.php'
 	),
-	'Autoloader_Handler' => array(
+	'Automattic\\Jetpack\\Autoloader\\CustomAutoloaderPlugin' => array(
 		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader-handler.php'
+		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php'
 	),
-	'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => array(
-		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadGenerator.php'
-	),
-	'Manifest_Reader' => array(
-		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-manifest-reader.php'
-	),
-	'Automattic\\Jetpack\\Autoloader\\ManifestGenerator' => array(
-		'version' => '2.10.11.0',
-		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/ManifestGenerator.php'
-	),
-	'Automattic\\Jetpack\\Sync\\JSON_Deflate_Array_Codec' => array(
+	'Automattic\\Jetpack\\Sync\\Simple_Codec' => array(
 		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-json-deflate-array-codec.php'
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-simple-codec.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Dedicated_Sender' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-dedicated-sender.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Actions' => array(
 		'version' => '1.30.5.0',
 		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-actions.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Queue_Buffer' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-queue-buffer.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Replicastore_Interface' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/interface-replicastore.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Settings' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-settings.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Defaults' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-defaults.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Lock' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-lock.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Replicastore' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-replicastore.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Default_Filter_Settings' => array(
 		'version' => '1.30.5.0',
@@ -638,177 +618,197 @@ return array(
 		'version' => '1.30.5.0',
 		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-data-settings.php'
 	),
-	'Automattic\\Jetpack\\Sync\\Health' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-health.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Package_Version' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-package-version.php'
-	),
 	'Automattic\\Jetpack\\Sync\\Users' => array(
 		'version' => '1.30.5.0',
 		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-users.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Sender' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-sender.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-modules.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Listener' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-listener.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Protect' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-protect.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Callables' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-callables.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Term_Relationships' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-term-relationships.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\WooCommerce' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-woocommerce.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Module' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-module.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Updates' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-updates.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Meta' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-meta.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Network_Options' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-network-options.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\WP_Super_Cache' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-wp-super-cache.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Comments' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-comments.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Users' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-users.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Constants' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-constants.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Terms' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-terms.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Full_Sync' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-full-sync.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Full_Sync_Immediately' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-full-sync-immediately.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Search' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-search.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Stats' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-stats.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Attachments' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-attachments.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Options' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-options.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Import' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-import.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Plugins' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-plugins.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Themes' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-themes.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Menus' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-menus.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Modules\\Posts' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-posts.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Queue' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-queue.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Simple_Codec' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-simple-codec.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Functions' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-functions.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Server' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-server.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Dedicated_Sender' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-dedicated-sender.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Codec_Interface' => array(
 		'version' => '1.30.5.0',
 		'path'    => $vendorDir . '/automattic/jetpack-sync/src/interface-codec.php'
 	),
-	'Automattic\\Jetpack\\Sync\\Utils' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-utils.php'
-	),
-	'Automattic\\Jetpack\\Sync\\Main' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-main.php'
-	),
-	'Automattic\\Jetpack\\Sync\\REST_Endpoints' => array(
-		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-rest-endpoints.php'
-	),
 	'Automattic\\Jetpack\\Sync\\REST_Sender' => array(
 		'version' => '1.30.5.0',
 		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-rest-sender.php'
 	),
-	'Automattic\\Jetpack\\Sync\\Replicastore\\Table_Checksum_Usermeta' => array(
+	'Automattic\\Jetpack\\Sync\\JSON_Deflate_Array_Codec' => array(
 		'version' => '1.30.5.0',
-		'path'    => $vendorDir . '/automattic/jetpack-sync/src/replicastore/class-table-checksum-usermeta.php'
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-json-deflate-array-codec.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Server' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-server.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Functions' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-functions.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Replicastore\\Table_Checksum' => array(
 		'version' => '1.30.5.0',
 		'path'    => $vendorDir . '/automattic/jetpack-sync/src/replicastore/class-table-checksum.php'
 	),
+	'Automattic\\Jetpack\\Sync\\Replicastore\\Table_Checksum_Usermeta' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/replicastore/class-table-checksum-usermeta.php'
+	),
 	'Automattic\\Jetpack\\Sync\\Replicastore\\Table_Checksum_Users' => array(
 		'version' => '1.30.5.0',
 		'path'    => $vendorDir . '/automattic/jetpack-sync/src/replicastore/class-table-checksum-users.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Listener' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-listener.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Replicastore' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-replicastore.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Utils' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-utils.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Sender' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-sender.php'
+	),
+	'Automattic\\Jetpack\\Sync\\REST_Endpoints' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-rest-endpoints.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Lock' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-lock.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-modules.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Package_Version' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-package-version.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Defaults' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-defaults.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Replicastore_Interface' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/interface-replicastore.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Queue' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-queue.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Main' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-main.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Themes' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-themes.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\WP_Super_Cache' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-wp-super-cache.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Callables' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-callables.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Posts' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-posts.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Full_Sync' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-full-sync.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Users' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-users.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Meta' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-meta.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Menus' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-menus.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Term_Relationships' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-term-relationships.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Attachments' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-attachments.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Network_Options' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-network-options.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Options' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-options.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Search' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-search.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Full_Sync_Immediately' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-full-sync-immediately.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\WooCommerce' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-woocommerce.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Import' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-import.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Protect' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-protect.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Constants' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-constants.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Plugins' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-plugins.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Module' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-module.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Stats' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-stats.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Updates' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-updates.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Terms' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-terms.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Modules\\Comments' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/modules/class-comments.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Health' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-health.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Settings' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-settings.php'
+	),
+	'Automattic\\Jetpack\\Sync\\Queue_Buffer' => array(
+		'version' => '1.30.5.0',
+		'path'    => $vendorDir . '/automattic/jetpack-sync/src/class-queue-buffer.php'
 	),
 	'Automattic\\Jetpack\\Config' => array(
 		'version' => '1.6.1.0',
@@ -822,85 +822,33 @@ return array(
 		'version' => '0.8.4.0',
 		'path'    => $vendorDir . '/automattic/jetpack-identity-crisis/src/class-ui.php'
 	),
-	'Automattic\\Jetpack\\Identity_Crisis' => array(
-		'version' => '0.8.4.0',
-		'path'    => $vendorDir . '/automattic/jetpack-identity-crisis/src/class-identity-crisis.php'
-	),
 	'Automattic\\Jetpack\\IdentityCrisis\\REST_Endpoints' => array(
 		'version' => '0.8.4.0',
 		'path'    => $vendorDir . '/automattic/jetpack-identity-crisis/src/class-rest-endpoints.php'
+	),
+	'Automattic\\Jetpack\\Identity_Crisis' => array(
+		'version' => '0.8.4.0',
+		'path'    => $vendorDir . '/automattic/jetpack-identity-crisis/src/class-identity-crisis.php'
 	),
 	'Automattic\\Jetpack\\Assets\\Logo' => array(
 		'version' => '1.5.14.0',
 		'path'    => $vendorDir . '/automattic/jetpack-logo/src/class-logo.php'
 	),
-	'Jetpack_Signature' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-signature.php'
-	),
 	'Jetpack_XMLRPC_Server' => array(
 		'version' => '1.37.3.0',
 		'path'    => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php'
-	),
-	'Jetpack_IXR_ClientMulticall' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php'
 	),
 	'Jetpack_IXR_Client' => array(
 		'version' => '1.37.3.0',
 		'path'    => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-client.php'
 	),
-	'Automattic\\Jetpack\\Connection\\Plugin' => array(
+	'Jetpack_IXR_ClientMulticall' => array(
 		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-plugin.php'
+		'path'    => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php'
 	),
-	'Automattic\\Jetpack\\Connection\\Nonce_Handler' => array(
+	'Jetpack_Signature' => array(
 		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-nonce-handler.php'
-	),
-	'Automattic\\Jetpack\\Connection\\Plugin_Storage' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-plugin-storage.php'
-	),
-	'Automattic\\Jetpack\\Connection\\Package_Version_Tracker' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-package-version-tracker.php'
-	),
-	'Automattic\\Jetpack\\Terms_Of_Service' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-terms-of-service.php'
-	),
-	'Automattic\\Jetpack\\Connection\\XMLRPC_Connector' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-xmlrpc-connector.php'
-	),
-	'Automattic\\Jetpack\\Connection\\Urls' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-urls.php'
-	),
-	'Automattic\\Jetpack\\Connection\\Manager_Interface' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/interface-manager.php'
-	),
-	'Automattic\\Jetpack\\Connection\\Rest_Authentication' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-rest-authentication.php'
-	),
-	'Automattic\\Jetpack\\Connection\\Initial_State' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-initial-state.php'
-	),
-	'Automattic\\Jetpack\\Connection\\Secrets' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-secrets.php'
-	),
-	'Automattic\\Jetpack\\Connection\\Package_Version' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-package-version.php'
-	),
-	'Automattic\\Jetpack\\Connection\\Manager' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-manager.php'
+		'path'    => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-signature.php'
 	),
 	'Automattic\\Jetpack\\Connection\\REST_Connector' => array(
 		'version' => '1.37.3.0',
@@ -910,33 +858,85 @@ return array(
 		'version' => '1.37.3.0',
 		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-webhooks.php'
 	),
+	'Automattic\\Jetpack\\Connection\\Tokens' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-tokens.php'
+	),
+	'Automattic\\Jetpack\\Connection\\XMLRPC_Connector' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-xmlrpc-connector.php'
+	),
 	'Automattic\\Jetpack\\Connection\\Error_Handler' => array(
 		'version' => '1.37.3.0',
 		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-error-handler.php'
 	),
-	'Automattic\\Jetpack\\Connection\\XMLRPC_Async_Call' => array(
+	'Automattic\\Jetpack\\Connection\\Initial_State' => array(
 		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-xmlrpc-async-call.php'
-	),
-	'Automattic\\Jetpack\\Connection\\Tokens' => array(
-		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-tokens.php'
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-initial-state.php'
 	),
 	'Automattic\\Jetpack\\Connection\\Client' => array(
 		'version' => '1.37.3.0',
 		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-client.php'
 	),
-	'Automattic\\Jetpack\\Connection\\Webhooks\\Authorize_Redirect' => array(
+	'Automattic\\Jetpack\\Connection\\XMLRPC_Async_Call' => array(
 		'version' => '1.37.3.0',
-		'path'    => $vendorDir . '/automattic/jetpack-connection/src/webhooks/class-authorize-redirect.php'
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-xmlrpc-async-call.php'
 	),
 	'Automattic\\Jetpack\\Connection\\Utils' => array(
 		'version' => '1.37.3.0',
 		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-utils.php'
 	),
+	'Automattic\\Jetpack\\Connection\\Nonce_Handler' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-nonce-handler.php'
+	),
+	'Automattic\\Jetpack\\Connection\\Urls' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-urls.php'
+	),
+	'Automattic\\Jetpack\\Connection\\Manager' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-manager.php'
+	),
+	'Automattic\\Jetpack\\Connection\\Package_Version' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-package-version.php'
+	),
+	'Automattic\\Jetpack\\Connection\\Manager_Interface' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/interface-manager.php'
+	),
+	'Automattic\\Jetpack\\Terms_Of_Service' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-terms-of-service.php'
+	),
+	'Automattic\\Jetpack\\Connection\\Webhooks\\Authorize_Redirect' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/webhooks/class-authorize-redirect.php'
+	),
 	'Automattic\\Jetpack\\Connection\\Server_Sandbox' => array(
 		'version' => '1.37.3.0',
 		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-server-sandbox.php'
+	),
+	'Automattic\\Jetpack\\Connection\\Plugin_Storage' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-plugin-storage.php'
+	),
+	'Automattic\\Jetpack\\Connection\\Plugin' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-plugin.php'
+	),
+	'Automattic\\Jetpack\\Connection\\Rest_Authentication' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-rest-authentication.php'
+	),
+	'Automattic\\Jetpack\\Connection\\Package_Version_Tracker' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-package-version-tracker.php'
+	),
+	'Automattic\\Jetpack\\Connection\\Secrets' => array(
+		'version' => '1.37.3.0',
+		'path'    => $vendorDir . '/automattic/jetpack-connection/src/class-secrets.php'
 	),
 	'Automattic\\Jetpack\\Redirect' => array(
 		'version' => '1.7.12.0',
@@ -966,13 +966,13 @@ return array(
 		'version' => '1.14.5.0',
 		'path'    => $vendorDir . '/automattic/jetpack-tracking/src/class-tracking.php'
 	),
-	'Automattic\\Jetpack\\Assets\\Semver' => array(
-		'version' => '1.17.8.0',
-		'path'    => $vendorDir . '/automattic/jetpack-assets/src/class-semver.php'
-	),
 	'Automattic\\Jetpack\\Assets' => array(
 		'version' => '1.17.8.0',
 		'path'    => $vendorDir . '/automattic/jetpack-assets/src/class-assets.php'
+	),
+	'Automattic\\Jetpack\\Assets\\Semver' => array(
+		'version' => '1.17.8.0',
+		'path'    => $vendorDir . '/automattic/jetpack-assets/src/class-semver.php'
 	),
 	'Automattic\\Jetpack\\A8c_Mc_Stats' => array(
 		'version' => '1.4.12.0',
@@ -982,17 +982,17 @@ return array(
 		'version' => '1.12.0.0',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-cache.php'
 	),
-	'Automattic\\Jetpack\\Status' => array(
+	'Automattic\\Jetpack\\Status\\Host' => array(
 		'version' => '1.12.0.0',
-		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-status.php'
+		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-host.php'
 	),
 	'Automattic\\Jetpack\\Status\\Visitor' => array(
 		'version' => '1.12.0.0',
 		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-visitor.php'
 	),
-	'Automattic\\Jetpack\\Status\\Host' => array(
+	'Automattic\\Jetpack\\Status' => array(
 		'version' => '1.12.0.0',
-		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-host.php'
+		'path'    => $vendorDir . '/automattic/jetpack-status/src/class-status.php'
 	),
 	'Jetpack_Options' => array(
 		'version' => '1.14.3.0',
