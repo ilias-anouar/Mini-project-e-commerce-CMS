@@ -1,9 +1,0 @@
-úC-d<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:48;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2023-03-29 12:29:02";s:13:"post_date_gmt";s:19:"2023-03-29 12:29:02";s:12:"post_content";s:1009:"*TWIN 6INCH NOISELESS ROLLER WHEELS:Equipped with two 6-inch-wide noiseless abrasion-resistant wheels to increase balance and stability and decrease injures during exercising. Besides,each wheel designs 5 sturdy spokes for even weight distribution.
-
-*COMFORTABLE AND ANTI-SLIPPING HANDLES:The coming handles wrapped with anti-slipping EVA can provide a strong and comfortable grip for you.
-
-*CONSIDERATE FREE EVA KNEE PAD:Considerately coming with a free .31-inch-thick knee pad to protect your knee from injury.
-
-*MULTI-PURPOSE EXERCISE WHEEL:Can be used to strengthen and tone muscles of abdomen,chest,shoulder,back,hips,calf,thighs,etc. Reshape your body curves,show your beautiful muscles,exercise your endurance and keep your fit with our useful exercise wheel!
-
-*EASY TO ASSEMBLE AND STORE:All the compartments of our exercise wheel are easy to assemble. And after a simple disassembly,the detached exercise wheel is convenient to pack into your bag. Do your Abs workout at anywhere and anytime.";s:10:"post_title";s:16:"Abs Roller Wheel";s:12:"post_excerpt";s:79:"Abs Roller Wheel Abdominal Fitness Gym Exercise Equipment Core Workout Training";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:16:"abs-roller-wheel";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2023-03-29 12:47:09";s:17:"post_modified_gmt";s:19:"2023-03-29 12:47:09";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:0;s:4:"guid";s:76:"http://localhost/Brief-18-e-commerce-CMS/wordpress/product/abs-roller-wheel/";s:10:"menu_order";i:0;s:9:"post_type";s:7:"product";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}
