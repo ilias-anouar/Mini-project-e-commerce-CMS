@@ -1,1 +1,1 @@
-ÑÜ.d<?php exit; ?>a:1:{s:7:"content";s:3:"yes";}
+İ.d<?php exit; ?>a:1:{s:7:"content";s:3:"yes";}
