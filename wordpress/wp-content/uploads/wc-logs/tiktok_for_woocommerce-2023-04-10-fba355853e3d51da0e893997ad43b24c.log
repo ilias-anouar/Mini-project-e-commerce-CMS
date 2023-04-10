@@ -1,0 +1,36 @@
+2023-04-10T09:17:59+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/store/update/
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_6424346d53990","net_gmv":[{"interval":"LIFETIME","max":380,"min":380,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":2,"min":2,"unit":"COUNT"}],"tenure":{"min":10,"max":10,"unit":"DAYS"},"extra_data":"{\"version\":\"1.0.16\"}"}
+ ajax: no
+2023-04-10T09:18:02+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 202304100917581DC91293312C141D8ED4
+Server-Timing: inner; dur=4
+x-tt-trace-host: 0141db07707a5218db5748e153b65b70b286fb306fe72fcbfb4f96738edca43ed2cde7c861caa057eabc3e71e5a8f50fe3e222d3d7f902c7aed1ef079042b58562a7359aa5e4b49ae17137c55102a58ca3915cfab4c84189a173840364feff1e74
+Expires: Mon, 10 Apr 2023 09:17:59 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 10 Apr 2023 09:17:59 GMT
+X-Cache: TCP_MISS from a96-16-87-60.deploy.akamaitechnologies.com (AkamaiGHost/11.0.2.2-47519392) (-)
+Connection: close
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=1, origin; dur=1015
+X-Origin-Response-Time: 1015,96.16.87.60
+X-Akamai-Request-ID: 6c19af77
+
+{"code":40104,"message":"The access_token is empty.","request_id":"202304100917581DC91293312C141D8ED4"}
+
+2023-04-10T09:55:01+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2023-04-10T09:55:01+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2023-04-10T09:55:08+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2023-04-10T09:55:08+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2023-04-10T09:56:37+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2023-04-10T09:56:37+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2023-04-10T09:57:00+00:00 DEBUG Tt4b_Pixel_Class::inject_purchase_event: hit injectPurchaseEvent
+2023-04-10T09:57:00+00:00 DEBUG Tt4b_Pixel_Class::inject_purchase_event: Missing option "access_token"
