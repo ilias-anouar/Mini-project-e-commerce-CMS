@@ -1,0 +1,139 @@
+Log created: 2023-04-10 10:52:48
+Type: backup
+[2023-04-10 10:52:50][notice]Start backing up.
+[2023-04-10 10:52:50][notice]server info fcgi:Off max execution time: 300 wp version:6.2 php version:8.2.0 db version:10.4.27 php ini:safe_mode: memory_limit:256M memory_get_usage:132.99 MB memory_get_peak_usage:134.85 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-04-10 10:52:50][notice]Prepare to backup backup_db files.
+[2023-04-10 10:52:50][notice]Start exporting database.
+[2023-04-10 10:52:50][notice]Preparing to dump table wp_gla_attribute_mapping_rules
+[2023-04-10 10:52:50][notice]Preparing to dump table wp_gla_merchant_issues
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_mailpoet_automation_triggers
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_mailpoet_automations
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_mailpoet_forms
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_mailpoet_log
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_mailpoet_statistics_bounces
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_wc_category_lookup
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_wc_reserved_stock
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_woocommerce_shipping_zone_methods
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_woocommerce_shipping_zones
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_wpforms_tasks_meta
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_actionscheduler_claims
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_actionscheduler_groups
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_gla_shipping_times
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_links
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_mailpoet_automation_run_logs
+[2023-04-10 10:52:51][notice]Preparing to dump table wp_mailpoet_automation_runs
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_automation_versions
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_custom_fields
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_dynamic_segment_filters
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_feature_flags
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_migrations
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_newsletter_option
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_newsletter_option_fields
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_newsletter_posts
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_newsletter_segment
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_scheduled_task_subscribers
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_settings
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_statistics_forms
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_subscriber_custom_field
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_subscriber_ips
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_tags
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_user_agents
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_mailpoet_user_flags
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_term_relationships
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_wc_admin_note_actions
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_wc_product_attributes_lookup
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_wc_product_download_directories
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_wc_rate_limits
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_wc_tax_rate_classes
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_wc_webhooks
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_woocommerce_attribute_taxonomies
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_woocommerce_log
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_woocommerce_order_items
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_woocommerce_payment_tokens
+[2023-04-10 10:52:52][notice]Preparing to dump table wp_woocommerce_sessions
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_commentmeta
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_gla_shipping_rates
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_mailpoet_automation_run_subjects
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_mailpoet_scheduled_tasks
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_mailpoet_segments
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_mailpoet_sending_queues
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_mailpoet_statistics_newsletters
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_mailpoet_stats_notifications
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_mailpoet_subscriber_segment
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_mailpoet_subscriber_tag
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_term_taxonomy
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_termmeta
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_terms
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_wc_admin_notes
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_wc_customer_lookup
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_wc_download_log
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_wc_order_coupon_lookup
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_wc_order_tax_lookup
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_woocommerce_api_keys
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_woocommerce_order_itemmeta
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_woocommerce_payment_tokenmeta
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_woocommerce_shipping_zone_locations
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_woocommerce_tax_rate_locations
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_mailpoet_newsletter_links
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_mailpoet_newsletters
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_mailpoet_statistics_clicks
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_mailpoet_statistics_unsubscribes
+[2023-04-10 10:52:53][notice]Preparing to dump table wp_users
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_wc_order_stats
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_mailpoet_statistics_woocommerce_purchases
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_wc_order_product_lookup
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_woocommerce_downloadable_product_permissions
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_woocommerce_tax_rates
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_mailpoet_statistics_opens
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_usermeta
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_comments
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_postmeta
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_wc_product_meta_lookup
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_mailpoet_subscribers
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_posts
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_actionscheduler_logs
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_gla_budget_recommendations
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_actionscheduler_actions
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_mailpoet_newsletter_templates
+[2023-04-10 10:52:54][notice]Preparing to dump table wp_options
+[2023-04-10 10:52:55][notice]Exporting database finished.
+[2023-04-10 10:52:55][notice]Start compressing database
+[2023-04-10 10:52:55][notice]Prepare to zip file. file: localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_db.sql
+[2023-04-10 10:52:55][notice]Adding zip files completed.localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_db.part001.zip, filesize: 5.78 MB
+[2023-04-10 10:52:55][notice]Compressing database completed
+[2023-04-10 10:52:55][notice]Backing up backup_db completed.
+[2023-04-10 10:52:55][notice]Prepare to backup backup_themes files.
+[2023-04-10 10:52:55][notice]Compressing zip file:localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_themes.part001.zip index:169
+[2023-04-10 10:52:55][notice]Compressing zip file:localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_themes.part001.zip success. index:169 file size:5.03 MB
+[2023-04-10 10:52:55][notice]Backing up backup_themes completed.
+[2023-04-10 10:52:55][notice]Prepare to backup backup_plugin files.
+[2023-04-10 10:53:24][notice]Compressing zip file:localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_plugin.part001.zip index:21138
+[2023-04-10 10:54:02][notice]Compressing zip file:localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_plugin.part001.zip success. index:21138 file size:200.64 MB
+[2023-04-10 10:54:03][notice]Backing up backup_plugin completed.
+[2023-04-10 10:54:03][notice]Prepare to backup backup_uploads files.
+[2023-04-10 10:54:04][notice]Compressing zip file:localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_uploads.part001.zip index:2083
+[2023-04-10 10:54:06][notice]Compressing zip file:localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_uploads.part001.zip success. index:2083 file size:9.33 MB
+[2023-04-10 10:54:06][notice]Backing up backup_uploads completed.
+[2023-04-10 10:54:06][notice]Prepare to backup backup_content files.
+[2023-04-10 10:54:06][notice]Compressing zip file:localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_content.part001.zip index:5
+[2023-04-10 10:54:06][notice]Compressing zip file:localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_content.part001.zip success. index:5 file size:37.04 KB
+[2023-04-10 10:54:06][notice]Backing up backup_content completed.
+[2023-04-10 10:54:06][notice]Prepare to backup backup_core files.
+[2023-04-10 10:54:07][notice]Compressing zip file:localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_core.part001.zip index:2560
+[2023-04-10 10:54:11][notice]Compressing zip file:localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_core.part001.zip success. index:2560 file size:50.63 MB
+[2023-04-10 10:54:11][notice]Backing up backup_core completed.
+[2023-04-10 10:54:11][notice]Prepare to backup backup_merge files.
+[2023-04-10 10:54:11][notice]Prepare to zip file. file: localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_db.zip
+[2023-04-10 10:54:11][notice]Adding zip files completed.localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_all.part001.zip, filesize: 5.78 MB
+[2023-04-10 10:54:11][notice]Prepare to zip file. file: localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_themes.zip
+[2023-04-10 10:54:11][notice]Adding zip files completed.localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_all.part001.zip, filesize: 10.80 MB
+[2023-04-10 10:54:11][notice]Prepare to zip file. file: localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_plugin.zip
+[2023-04-10 10:54:17][notice]Adding zip files completed.localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_all.part001.zip, filesize: 68.24 MB
+[2023-04-10 10:54:17][notice]Prepare to zip file. file: localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_uploads.zip
+[2023-04-10 10:54:18][notice]Adding zip files completed.localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_all.part001.zip, filesize: 77.57 MB
+[2023-04-10 10:54:18][notice]Prepare to zip file. file: localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_content.zip
+[2023-04-10 10:54:18][notice]Adding zip files completed.localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_all.part001.zip, filesize: 77.61 MB
+[2023-04-10 10:54:18][notice]Prepare to zip file. file: localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_core.zip
+[2023-04-10 10:54:20][notice]Adding zip files completed.localhost_Brief-18-e-commerce-CMS_wordpress_wpvivid-6433ea808eb08_2023-04-10-10-52_backup_all.part001.zip, filesize: 89.03 MB
+[2023-04-10 10:54:21][notice]Backing up backup_merge completed.
+[2023-04-10 10:54:21][notice]Backup completed.
