@@ -1,1 +1,1 @@
-×ì3d<?php exit; ?>a:1:{s:7:"content";s:61:"a:2:{s:4:"path";s:14:"wpvividbackups";s:10:"save_local";i:1;}";}
+Þô3d<?php exit; ?>a:1:{s:7:"content";s:61:"a:2:{s:4:"path";s:14:"wpvividbackups";s:10:"save_local";i:1;}";}
